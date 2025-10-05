@@ -1,0 +1,44 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "alphalaneous.negateinput",
+	"name": "NegateInput",
+	"version": "v1.0.0",
+	"developer": "Alphalaneous",
+	"description": "Negates the selected number input in the editor",
+	"settings": {
+		"show-negate-button": {
+			"type": "bool",
+			"name": "Show Negate Button",
+			"default": {
+				"win": false,
+				"mac": false,
+				"android": true,
+				"ios": true
+			}
+		},
+		"enable-negate-keybind": {
+			"type": "bool",
+			"name": "Enable Negate Keybind",
+			"default": {
+				"win": true,
+				"mac": true,
+				"android": false,
+				"ios": false
+			}
+		}
+	},
+	"links": {
+		"homepage": "https://linktr.ee/Alphalaneous",
+		"source": "https://github.com/Alphalaneous/NegateInput",
+		"community": "https://discord.gg/Txn2CA5dHF"
+	},
+	"tags": [
+		"editor", "utility", "offline", "enhancement"
+	]
+}
