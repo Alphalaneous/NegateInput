@@ -7,7 +7,7 @@ class $modify(CCTextInputNode) {
 
 	bool allowedInput() {
 		if (!LevelEditorLayer::get()) return false;
-		for (char c : m_allowedChars) {
+		for (char c : std::string_view(m_allowedChars)) {
 			if (!((c >= '0' && c <= '9') || c == '-' || c == '.'))
 				return false;
 		}
